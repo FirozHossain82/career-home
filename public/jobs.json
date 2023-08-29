@@ -1,0 +1,34 @@
+[
+    {
+    "id": "623853b2614ad5aba311fdd10",
+    "logo":"https://i.ibb.co/p0VjYHV/google-1-1-1.png",
+    "title": "Technical Database Engineer",
+    "company-name":"Google LLC",
+    "job-location": "Dhaka,Bangladesh",
+    "available-jobs": "300 Jobs Available"
+    },
+    {
+    "id": "623853b2578e9e6ad1ae0dd50",
+    "logo": "https://i.ibb.co/LzBwM0j/netflix-4-1.png",
+    "title": "Senior Product Designer",
+    "company-name":"Netflix",
+    "job-location": "Dhaka,Bangladesh",
+    "available-jobs": "100+ Jobs Available"
+    },
+    {
+    "id": "623853b21fb149d2ee7b76c71",
+    "logo": "https://i.ibb.co/Qvq22K3/tesla-9-1.png",
+    "title": "Software Engineer",
+    "company-name":"Tesla",
+    "job-location": "Dhaka,Bangladesh",
+    "available-jobs": "200+ Jobs Available"
+    },
+    {
+    "id": "623853b2e91c8de578c9245ed",
+    "logo": "https://i.ibb.co/NZ5JXzx/Group-10021.png",
+    "title": "Android Developer",
+    "company-name":"Airbnb",
+    "job-location": "Dhaka,Bangladesh",
+    "available-jobs": "450 Jobs Available"
+    }
+    ]
