@@ -306,18 +306,18 @@ const Footer = () => {
           Discover your dream job effortlessly on our job portal website. With an extensive range of job listings, personalized alerts, and valuable career resources, we're your partner in finding the perfect career. Simplify your job search and accelerate your career journey with us. Join now!
           </small>
           <div className="flex justify-center md:justify-start items-center my-5">
-              <h3>
+              <Link to="https://www.facebook.com/">
                 <FaFacebookF className="text-2xl mx-4 "></FaFacebookF>
-              </h3>
-              <h3>
+              </Link>
+              <Link to ="https://twitter.com/">
                 <FaTwitter className="text-2xl mx-4"></FaTwitter>
-              </h3>
-              <h3 className="text-2xl mx-4">
+              </Link>
+              <Link to="https://www.instagram.com/" className="text-2xl mx-4">
                 <FaInstagram></FaInstagram>
-              </h3>
-              <h3 className="text-2xl mx-4">
+              </Link>
+              <Link to="https://github.com/FirozHossain82" className="text-2xl mx-4">
                 <FaGithub/>
-              </h3>
+              </Link>
             </div>
         </div>
         <div className="w-6/12 text-sm md:w-2/12 px-3">
