@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-cyan-200 shadow-md ">
+    <div className="bg-cyan-600 shadow-md ">
       <div className="sticky px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
         <div className="relative flex items-center justify-between ">
           <Link
@@ -116,7 +116,7 @@ const Header = () => {
             </button>
             {isMenuOpen && (
               <div className="absolute top-0 left-0 w-full">
-                <div className="p-5 bg-cyan-100 border rounded shadow-md">
+                <div className="p-5 bg-cyan-600 border rounded shadow-md">
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <Link
