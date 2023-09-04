@@ -1,0 +1,20 @@
+import { getShoppingCart } from "../../utilities/fakedb.js";
+
+const jobsLoader = async () =>{
+    const loadedJobs = await fetch('jobs.json');
+    const jobs = await loadedJobs.json();
+
+    const storedJob = getShoppingCart();
+    let savedJob = [];
+    console.log(savedJob);
+    for(const id in storedJob){
+        const addedJob = jobs.find(job => job.id ===id);
+        if(addedJob){
+            const quantity = storedJob[id];
+            addedJob.quantity = quantity;
+            savedJob.push(addedJob);
+        }
+    }
+    return savedJob;
+}
+export default jobsLoader;
