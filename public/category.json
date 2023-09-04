@@ -3,24 +3,24 @@
     "id": "623853b2614ad5aba311fdd1",
     "picture":"https://i.ibb.co/GxZZm8J/accounts-1.png",
     "title": "Accounts & Finance",
-    "available-jobs": "300 Jobs Available"
+    "available_jobs": "300 Jobs Available"
     },
     {
     "id": "623853b2578e9e6ad1ae0dd5",
     "picture": "https://i.ibb.co/56z2qpC/business-1.png",
     "title": "Creative Design",
-    "available-jobs": "100+ Jobs Available"
+    "available_jobs": "100+ Jobs Available"
     },
     {
     "id": "623853b21fb149d2ee7b76c7",
     "picture": "https://i.ibb.co/JsZFKjk/social-media-1.png",
     "title": "Marketing  & Sales",
-    "available-jobs": "200+ Jobs Available"
+    "available_jobs": "200+ Jobs Available"
     },
     {
     "id": "623853b2e91c8de578c9245e",
     "picture": "https://i.ibb.co/KLr4Tdh/chip-1.png",
     "title": "Engineering Job",
-    "available-jobs": "450 Jobs Available"
+    "available_jobs": "450 Jobs Available"
     }
     ]
