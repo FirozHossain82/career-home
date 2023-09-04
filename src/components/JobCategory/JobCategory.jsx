@@ -1,23 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import JobCategoryDetails from "./../JobCategoryDetails/JobCategoryDetails";
 
-const JobCategory = ({ category }) => {
-  // console.log(category);
-  const { picture, title, available_jobs } = category;
+const JobCategory = () => {
+  const [categoryes, setCategoryes] = useState([]);
+  useEffect(() => {
+    fetch("category.json")
+      .then((res) => res.json())
+      .then((data) => setCategoryes(data));
+  }, []);
   return (
     <div>
-        <div>
-            <h1>Job Category List</h1>
-            <span>Explore thousands of job opportunities with all the information you need. Its your future</span>
+      <div className="text-center mt-14">
+            <h1 className="text-4xl mb-4 font-semibold font-serif">Job Category List</h1>
+            <p className="text-base text-black">Explore thousands of job opportunities with all the information you need. Its your future.</p>
         </div>
-      <div className=" mx-auto  shadow-lg rounded-lg overflow-hidden bg-blue-100">
-        <img className="w-10 h-10 object-cover   " src={picture} alt="Job" />
-        <div className="p-4">
-          <h2 className="text-xl md:text-2xl lg:text-2xl font-semibold">
-            {title}
-          </h2>
-          <p className="text-gray-600"> {available_jobs}</p>
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto gap-6 p-4 my-12 ">
+        {categoryes.map((category) => (
+          <JobCategoryDetails
+            key={category.id}
+            category={category}
+          ></JobCategoryDetails>
+        ))}
       </div>
     </div>
   );
