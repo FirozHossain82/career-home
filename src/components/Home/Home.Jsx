@@ -20,7 +20,7 @@ const Home = () => {
                 <p className="text-base text-black">Explore thousands of job opportunities with all the information you need. Its your future.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container mx-auto gap-6 p-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 container mx-auto gap-10 p-6 mb-6">
               {
                 jobs.map(job =><Jobs
                 key={job.id}
